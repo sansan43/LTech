@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>LT</title>
+
+   
+    <head>
+<style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+  
+  body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color:orange;
+  }
+  
+  header {
+      background:   #454140;
+      color: #d4b526; 
+      padding: 10px 0;
+      text-align: center;
+  }
+  
+  nav {
+      position: relative;
+      align-items: top;
+  }
+  
+  nav ul {
+      list-style: none;
+      padding: 0;
+  }
+  
+  nav ul li {
+      display: inline;
+      margin: 0 15px;
+  }
+  
+  nav a {
+      color: #fff;
+      text-decoration: none;
+  }
+  
+  #menu-toggle {
+      display: none;
+      background: none;
+      border: none;
+      color: #cf0f0f;
+      font-size: 24px;
+      cursor: pointer;
+  }
+  
+  main {
+      padding: 20px;
+  }
+  
+  section {
+      margin: 20px 0;
+  }
+  
+  footer {
+      text-align: center;
+      padding: 10px 0;
+      background: #333;
+      color: #fff;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+      nav ul {
+          display: none;
+          flex-direction: column;
+          background: #333;
+          position: absolute;
+          width: 100%;
+          top: 50px;
+          left: 0;
+      }
+  
+      nav ul.active {
+          display: flex;
+      }
+  
+      nav ul li {
+          display: block;
+          margin: 10px 0;
+      }
+  
+      #menu-toggle {
+          display: block;
+      }
+  }* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background:  #1284E0;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+}
+
+nav {
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
+
+/* Media Queries */
+@media (max-width: 768px)
+{
+    nav ul {
+        display: none;
+        flex-direction: column;
+        background: #6905bb;
+        position: absolute;
+        width: 100%;
+        top: 50px;
+        left: 0;
+        width: 200px;
+    }
+
+ 
+
+
+
+    nav ul.active {
+        display: flex;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #menu-toggle {
+        display: block;
+    }
+}
+
+#nav-list li a {
+
+
+    padding: 5px;
+    color: white;
+
+   
+
+}
+
+#nav-list  li :hover
+{
+background-color:orange;
+
+
+}
+
+#computer {
+    color:white;
+    font-family: "times new roman bold";
+    ;
+    
+
+   background-size: 25px 50px;
+
+}
+
+
+
+.skills  {
+
+background-color: #1284E0;
+height: 60px;
+color: #dfd40b;
+font-size: 20px;
+
+
+
+}
+
+
+#skillS h2
+{
+
+    text-align: center;
+
+}
+.video-container {
+   
+    overflow: hidden;
+    width: 100%;
+
+}
+
+
+video
+{
+    width: 100%;
+    height: auto;
+}
+
+#services {
+
+
+    background-color: #e7bd00;
+}
+
+img{
+
+
+
+
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: initial;
+    position: flex;
+}
+
+#home,p
+{
+    color:rgb(9, 48, 167);
+    font-size: 25px;
+    font-family: 'times new roman  ';
+    font-weight: bold;
+
+}
+
+
+#image1 img {
+    box-sizing: border-box;
+    height: auto;
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+
+.div2 {
+
+  color: #feffff;
+  height: 40%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: radius 5px;
+}
+
+
+#rcorners1 {
+  border-radius: 45px;
+  background: #73AD21;
+  padding: 30px; 
+  width: 200px;
+  height: 20px;  
+  text-align: center;
+  margin-top: 1000px;
+  margin-bottom: 500px;
+  align-items: center;
+}
+#about {
+
+    color: white;
+}
+
+#footer {
+
+    color: rgb(145, 16, 16);
+    background-color:#000000;
+    height: 150px;
+}
+
+p.round3 {
+
+  border-radius: 1px;
+  color: rgb(241, 241, 241);
+  background-color: #1284E0;
+  padding: 1px;
+  font-family:'Times New Roman bold';
+  font-size: 25px;
+
+
+}
+
+  /* Smartphones (portrait and landscape) ----------- */
+
+ 
+
+
+</style>
+
+
+
+</head>
+<body>
+       <div class ="lead">
+        <a><img src="image/lt8.png"  style="width: 200px; height:10"></a></div>
+    <header>
+     
+     
+
+       <div class="skills">
+ 
+        <p class="round3">Developing Skills Building Futures</p>
+
+
+  <div>
+    
+  </div>
+    
+        <nav>
+                 <ul id="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Msofffice.html">M.S.Office</a></li>
+                <li><a href="Tally.html">Tally Prime</a></li>
+                <li><a href="#">D.T.P</a></li>
+                <li><a href="fullstack34.html">FullStack</a></li>
+                <li><a href="Data Analytics.html">Data Analytics</a></li>
+                <li><a href="Autocad1.html">AutoCad</a></li>
+                <li><a href="C pgroamming.html">C </a></li>
+                <li><a href="Cplus.html">C++</a></li>
+                <li><a href="Java.html">Java</a></li>
+                <li><a href="python.html">Python</a></li>
+
+                 
+
+
+            </ul>  
+            
+            
+            
+            <button id="menu-toggle">☰</button>
+            
+        </nav>
+    
+    </header>
+    <main>
+        <section id="home">
+
+            <h2>Tech Skills Training</h2>
+          
+          
+         
+            <p>LeadTech Offers you on Tech Training and Certification on Skills for FullStack and Data Analytics and C,C++,Java,Python<br> M.S office ,Advance Excel and D.T.P.</p>
+
+                                     
+        </section>
+
+
+     
+    
+        <section id="about">
+         
+
+          <img src="image/imagetype2.jpg">  
+           
+ 
+             
+            </div>
+        </section>
+          
+
+            <section id ="png1">
+                <div class="video-container">
+                    <video autoplay muted loop  height="600" height="250" style="width: 600px; height: 300px">
+    
+                        <source src="vedio1.mp4" type="video/mp4" >
+                   
+                    </video>
+            
+                <img src="image/msoffice1.png" alt="img1" width="100px" height="100px" style="width: 250px;;height:200px;"  >
+                <img src="image/tally4.png" alt="img1" width="100" height="400" style="width: 250px;;height:200px;"  >
+                <img src="image/autocad.png" alt="img1" width="100" height="400" style="width: 250px;;height:200px;"  >
+                <img src="image/fullstck4.png" alt="img1" width="100" height="400" style="width: 250px;;height:200px;"  >
+                <img src="image/data analytic2.png" alt="img1" width="100" height="400" style="width: 300px;;height:200px;"  >
+                <img src="image/web design.jpg" alt="img1" width="100" height="400" style="width: 300px;;height:200px;" >
+              
+                <img src="image/c cplus.png" alt="img1" width="100px" height="100px" style="width: 250px;;height:200px;"  >
+                <img src="image/java1.png" alt="img1" width="100px" height="100px" style="width: 250px;;height:200px;"  >
+                <img src="image/python1.png" alt="img1" width="100px" height="100px" style="width: 250px;;height:200px;"  >
+                <img src="image/coreldraw.png" alt="img1" width="100px" height="100px" style="width: 250px;height:200px;"  >
+            
+            
+            </section>
+           
+              
+               <div class="div2">
+                <h1 style="background-color:#158849"></h1>
+              </div>
+          
+`
+             </section>
+
+
+  
+        </section>
+        <section id="contact">
+         
+            <p>Contact :6360206770.</p>
+            <p> Adresse :S.S front Road, Near Siddeshwar Temple,Sanagma Buliding,2nd Floor,Vijayapura 586-101</p>
+        </section>
+    </main>
+
+
+
+  
+
+
+
+
+    <footer id="footer">
+        <p>&copy; 2024 LeadTech</p>
+    
+    
+    
+    
+    </footer>
+
+
+
+
+
+    <script > 
+document.getElementById('menu-toggle').addEventListener('click', function() {
+    const navList = document.getElementById('nav-list');
+    navList.classList.toggle('active');
+});
+    </script>
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
